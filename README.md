@@ -1,3 +1,20 @@
+# Book Store
+
+Welcome to the Book Store repository!
+
+This repository contains the source code for a simple book store application. The application allows users to browse a collection of books, add them to the catalog, and remove them.
+
+## Description
+
+The Book Store application is designed to provide users with an easy way to browse and manage a catalog of books. With features such as searching, adding new books, and removing existing ones, users can interact with the catalog to find their favorite reads.
+
+## Features
+
+- **Browse Books**: View a list of available books with details such as title, author, and price.
+- **Search**: Search for specific books by title or author.
+- **Add to Catalog**: Add new books to the catalog.
+- **Remove from Catalog**: Remove existing books from the catalog.
+
 ## Installation
 
 To run the application locally, follow these steps:
@@ -21,7 +38,7 @@ To run the application locally, follow these steps:
         ```
         cd server
         ```
-    - Adjust the database connection configuration in your server code according to your PostgreSQL setup. You can find the database connection configuration in your server code, usually in a file named `index.js` or similar. Here's an example of a database connection using Knex.js:
+    - Adjust the database connection configuration in your server code according to your PostgreSQL setup. You can find the database connection configuration in your server code, usually in a file named `app.js` or similar. Look for a section similar to the following, where the database connection is established using Knex.js:
         ```javascript
         const database = knex({
           client: 'pg',
@@ -88,6 +105,7 @@ To run the application locally, follow these steps:
 - **Node.js**: JavaScript runtime for building server-side applications.
 - **Express.js**: Web application framework for Node.js.
 - **PostgreSQL**: Relational database for storing application data.
+- **Knex.js**: SQL query builder for Node.js, used for database migrations and queries.
 
 ## Contributing
 
