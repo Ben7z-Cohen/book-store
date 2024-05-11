@@ -107,6 +107,20 @@ To run the application locally, follow these steps:
 - **PostgreSQL**: Relational database for storing application data.
 - **Knex.js**: SQL query builder for Node.js, used for database migrations and queries.
 
+## Technical Debt
+
+### Form Alignment
+- The submit form is currently not aligned properly and could benefit from refactoring for better alignment.
+
+### Button Alignment
+- The add button lacks proper alignment and should be adjusted for a more polished appearance.
+
+## Known Issues
+
+### Rendering Issues with Adding New Book
+- There are known issues with re-rendering when adding a new book to the catalog. This leads to unexpected behavior and needs to be addressed.
+
+
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
