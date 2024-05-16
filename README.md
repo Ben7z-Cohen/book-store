@@ -119,7 +119,8 @@ To run the application locally, follow these steps:
 
 ### Rendering Issues with Adding New Book
 - There are known issues with re-rendering when adding a new book to the catalog. This leads to unexpected behavior and needs to be addressed.
-
+### Replacing `PATCH` method with `POST` for /books url.
+- The use of `PATCH` method is incorrect, should be replaced with `POST`.
 
 ## Contributing
 
